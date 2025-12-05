@@ -1,19 +1,17 @@
 {
-  "manifest_version": 2,
-  "name": "__addonName__",
-  "version": "__buildVersion__",
-  "description": "__description__",
-  "homepage_url": "__homepage__",
-  "author": "__author__",
+  "manifest_version": 3,
+  "name": "Zotero Systematic Review Toolkit",
+  "version": "0.1.0",
+  "description": "Démarre un projet de revue systématique avec collections et étiquettes normalisées.",
+  "author": "Trypta",
   "icons": {
     "48": "content/icons/favicon@0.5x.png",
     "96": "content/icons/favicon.png"
   },
-  "applications": {
-    "zotero": {
-      "id": "__addonID__",
-      "update_url": "__updateURL__",
-      "strict_min_version": "6.999",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "zotero-systematic-review-toolkit@trypta",
+      "strict_min_version": "7.0",
       "strict_max_version": "8.*"
     }
   }

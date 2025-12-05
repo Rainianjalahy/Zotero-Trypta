@@ -1,20 +1,20 @@
 {
-  "name": "zotero-plugin-template",
+  "name": "zotero-systematic-review-toolkit",
   "type": "module",
-  "version": "3.1.0",
-  "description": "Zotero Plugin Template",
+  "version": "0.1.0",
+  "description": "Outils de démarrage pour les revues systématiques dans Zotero 7.",
   "config": {
-    "addonName": "Zotero Plugin Template",
-    "addonID": "addontemplate@euclpts.com",
-    "addonRef": "addontemplate",
-    "addonInstance": "AddonTemplate",
-    "prefsPrefix": "extensions.zotero.addontemplate"
+    "addonName": "Zotero Systematic Review Toolkit",
+    "addonID": "zotero-systematic-review-toolkit@trypta",
+    "addonRef": "zsrt",
+    "addonInstance": "SystematicReviewToolkit",
+    "prefsPrefix": "extensions.zotero.zsrt"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/windingwind/zotero-plugin-template.git"
   },
-  "author": "windingwind",
+  "author": "Trypta",
   "bugs": {
     "url": "https://github.com/windingwind/zotero-plugin-template/issues"
   },
